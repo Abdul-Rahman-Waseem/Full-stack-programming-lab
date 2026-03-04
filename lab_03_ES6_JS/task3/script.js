@@ -9,9 +9,9 @@ function fetchUsers() {
 
             if (!isError) {
                 resolve([
-                    { id: 1, name: "hamza" },
-                    { id: 2, name: "khan" },
-                    { id: 3, name: "Ahmed" }
+                    { id: 1, name: "AAbdul Rahman" },
+                    { id: 2, name: "Zain" },
+                    { id: 3, name: "Ali" }
                 ]);
             } else {
                 reject("Failed to load user data!");
